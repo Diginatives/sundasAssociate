@@ -127,7 +127,7 @@
                                     </div>
                                     <div class="text">
                                         <h4>Working Hours</h4>
-                                        <p>Mon-Sat:9.30am To 7.00pm</p>
+                                        <p>09:00 AM till 18:00 PM</p>
                                     </div>
                                 </li>
                             </ul>

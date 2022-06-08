@@ -94,7 +94,7 @@
                                         </div>
                                         <div class="title">
                                             <h3>Office Timeing</h3>
-                                            <p>Mon - Fri: 09:00 - 18:00</p>
+                                            <p>09:00 AM till 18:00 PM</p>
                                         </div>
                                     </li>
                                     <li>
@@ -159,64 +159,51 @@
                                 </div>
                             </div>
                             <!-- Main Menu -->
+                            
+                            <!-- <?php
+                           $args = array(
+                            // 'menu'              => "", // (int|string|WP_Term) Desired menu. Accepts a menu ID, slug, name, or object.
+                            'menu_class'        => "navigation clearfix", // (string) CSS class to use for the ul element which forms the menu. Default 'menu'.
+                            'menu_id'           => "div", // (string) The ID that is applied to the ul element which forms the menu. Default is the menu slug, incremented.
+                            'container'         => "nav", // (string) Whether to wrap the ul, and what to wrap it with. Default 'div'.
+                            // 'container_class'   => "", // (string) Class that is applied to the container. Default 'menu-{menu slug}-container'.
+                            // 'container_id'      => "", // (string) The ID that is applied to the container.
+                            // 'fallback_cb'       => "", // (callable|bool) If the menu doesn't exists, a callback function will fire. Default is 'wp_page_menu'. Set to false for no fallback.
+                            // 'before'            => "", // (string) Text before the link markup.
+                            // 'after'             => "", // (string) Text after the link markup.
+                            // 'link_before'       => "", // (string) Text before the link text.
+                            // 'link_after'        => "", // (string) Text after the link text.
+                            // 'echo'              => "", // (bool) Whether to echo the menu or return it. Default true.
+                            // 'depth'             => "", // (int) How many levels of the hierarchy are to be included. 0 means all. Default 0.
+                            // 'walker'            => "", // (object) Instance of a custom walker class.
+                            // 'theme_location'    => "", // (string) Theme location to be used. Must be registered with register_nav_menu() in order to be selectable by the user.
+                            // 'items_wrap'        => "", // (string) How the list items should be wrapped. Default is a ul with an id and class. Uses printf() format with numbered placeholders.
+                            // 'item_spacing'      => "", // (string) Whether to preserve whitespace within the menu's HTML. Accepts 'preserve' or 'discard'. Default 'preserve'.
+                           );
+                            $menu_list = wp_nav_menu($args);
+                            var_dump($menu_list);
+                            ?> -->
+
+
                             <nav class="main-menu style1 navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown current"><a href="#">Home</a>
-                                            <ul>
-                                                <li><a href="index.html">Home Page 01</a></li>
-                                                <li><a href="index-2.html">Home Page 02</a></li>
-                                                <li><a href="index-3.html">Home Page 03</a></li>
-                                                <li><a href="index-4.html">Home Page 04</a></li>
-                                                <li><a href="index-box-layout.html">Home Boxed Layout</a></li>
-                                                <li><a href="index-rtl.html">Home RTL</a></li>
-                                                <li><a href="index-onepage.html">Home OnePage</a></li>
-                                                <li class="dropdown"><a href="#">Header Styles</a>
-                                                    <ul>
-                                                        <li><a href="index.html">Header Style One</a></li>
-                                                        <li><a href="index-2.html">Header Style Two</a></li>
-                                                        <li><a href="index-3.html">Header Style Three</a></li>
-                                                        <li><a href="index-4.html">Header Style Four</a></li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
+                                        <li class="dropdown current"><a href="http://localhost/sundasAssociate/">Home</a>
                                         </li>
-                                        <li class="dropdown"><a href="#">Student Visa</a>
-                                            <ul>
-                                                <li><a href="coaching.html">View All Coaching</a></li>
-                                                <li><a href="coaching-ielts.html">IELTS Coaching</a></li>
-                                                <li><a href="coaching-pte.html">PTE Coaching</a></li>
-                                                <li><a href="coaching-toefl.html">TOEFL</a></li>
-                                                <li><a href="coaching-graduate.html">Graduate Re-Exam</a></li>
-                                                <li><a href="coaching-scholastic.html">Scholastic Apti</a></li>
-                                                <li><a href="coaching-management.html">Management Test</a></li>
-                                            </ul>
+                                        <li class="dropdown"><a href="http://localhost/sundasAssociate/student-visa/">Student Visa</a>
+                                           
                                         </li>
-                                        <li class="dropdown"><a href="#">Business Visa</a>
-                                            <ul>
-                                                <li><a href="visa.html">View All Visa</a></li>
-                                                <li><a href="visa-student.html">Student Visa</a></li>
-                                                <li><a href="visa-business.html">Business Visa</a></li>
-                                                <li><a href="visa-job.html">Job Seeker Visa</a></li>
-                                                <li><a href="visa-tourist.html">Tourist Visa</a></li>
-                                                <li><a href="visa-consular.html">Consular Closings</a></li>
-                                                <li><a href="visa-diplomatic.html">Diplomatic Visa</a></li>
-                                                <li><a href="visa-family.html">Family Visa</a></li>
-                                                <li><a href="visa-transit.html">Transit Visa</a></li>
-                                                <li><a href="visa-migrate.html">Migrate Visa</a></li>
-                                            </ul>
+                                        <li class="dropdown"><a href="http://localhost/sundasAssociate/business-visa/">Business Visa</a>
+                                         
                                         </li>
-                                        <li><a href="countery.html">Job Seeker Visa</a></li>
+                                        <li><a href="http://localhost/sundasAssociate/job-seeker-visa/">Job Seeker Visa</a></li>
                                        
-                                        <li><a href="countery.html">Immigration Visa</a></li>
+                                        <li><a href="http://localhost/sundasAssociate/migrate-visa/">Immigration Visa</a></li>
                                       
-                                        <li class="dropdown"><a href="#">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Latest Blog</a></li>
-                                                <li><a href="blog-single.html">Blog Detail</a></li>
-                                            </ul>
+                                        <li class="dropdown"><a href="http://localhost/sundasAssociate/blog/">Blog</a>
+                                           
                                         </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li><a href="http://localhost/sundasAssociate/contact-us/">Contact</a></li>
                                     </ul>
                                 </div>
                             </nav>
